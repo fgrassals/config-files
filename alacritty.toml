@@ -1,0 +1,16 @@
+[general]
+import = [
+	"~/.config/alacritty/themes/themes/moonfly.toml"
+]
+
+[env]
+# env vars
+
+[window]
+#padding = { x = 2, y = 0 }
+dynamic_padding = true
+decorations_theme_variant = "Dark"
+
+[terminal]
+shell = { program = "/usr/bin/zsh", args = ["-c", "tmux attach || tmux"] }
+
